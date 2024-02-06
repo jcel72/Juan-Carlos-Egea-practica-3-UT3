@@ -1,0 +1,161 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artículos de panadería</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">  
+<style>
+    .card {
+        border-style: none;
+    }
+    .card-text1 {
+        font-weight: bold;
+        color: rgb(216, 133, 37);
+    }
+    .card-title {
+        font-weight: bold;
+    }
+    .navbar{
+        min-height: 100px;
+    }
+    .nav-item{
+        border-radius:2rem;
+    }
+    ul {
+        list-style-type: none;
+        margin: 20px;
+        position: absolute;
+        width: 100%;
+    }
+    img {
+        border-style: solid;
+        border-color: goldenrod;
+
+    }
+    li{
+        display: flex;
+        margin: 50px;
+        position:relative;
+        width: calc(100% /4)
+    }
+</style>
+</head>
+<body>
+    <header>
+        <h1 style="text-align:center"><strong>Artículos de <br>panadería</strong></h1>
+         <p style="text-align:center; color:rgb(199, 199, 199)">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla <br>pariatur. Excepteur sint accaecat cupidatat non proident, sunt in culpa qui oficia deserunt. </p>
+    </header>
+    <!-- Barra de navegación -->
+    
+
+    <!-- Tarjetas de productos -->
+    <div class="container mt-4">
+        <div class="row">
+            <!-- Tarjeta 1 -->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="imagenes/junquillo.jpg"  class="card-img-top" alt="Junquillo">
+                    <div class="card-body">
+                        <h5 class="card-title">JUNQUILLO</h5>
+                        <p class="card-text">Baguette de masa madre en lotes pequeños.</p>
+                        <p class="card-text1">$4.5</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="imagenes/masa-fermentada.jpg" style="border:5px solid color gold" class="card-img-top" alt="Junquillo">
+                    <div class="card-body">
+                        <h5 class="card-title">PAN DE MASA FERMENTADA</h5>
+                        <p class="card-text">Sample text. Click to select the Text Element.</p>
+                        <p class="card-text1">$5.25</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="imagenes/grano-mixto.jpg" style="border:5px solid color gold" class="card-img-top" alt="Junquillo">
+                    <div class="card-body">
+                        <h5 class="card-title">GRANO MIXTO</h5>
+                        <p class="card-text">Sample text. Click to select the Text Element.</p>
+                        <p class="card-text1">$4.5</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <p> </p>
+        </div>
+        <div class="row"> 
+            <div class="col">
+                <div class="card h-100">
+                    <img src="imagenes/pan-leche.jpg" style="border:5px solid color gold" class="card-img-top" alt="Junquillo">
+                    <div class="card-body">
+                        <h5 class="card-title">PAN DE LECHE</h5>
+                        <p class="card-text">Sample text. Click to select the Text Element.</p>
+                        <p class="card-text1">$3.55</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="imagenes/pan-moreno.jpg" style="border:5px solid color gold" class="card-img-top" alt="Junquillo">
+                    <div class="card-body">
+                        <h5 class="card-title">PAN MORENO</h5>
+                        <p class="card-text">Sample text. Click to select the Text Element.</p>
+                        <p class="card-text1">$2.45</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="imagenes/rollos-canela.jpg" style="border:5px solid color gold" class="card-img-top" alt="Junquillo">
+                    <div class="card-body">
+                        <h5 class="card-title">CANELA</h5>
+                        <p class="card-text">Sample text. Click to select the Text Element.</p>
+                        <p class="card-text1">$1.5</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <p> </p>
+            </div>
+            <div class="row">
+                
+                <p style="text-align:center">Imágenes de <a href="https://www.freepik.es"> Freepik</a></p>
+            </div>
+            <!-- Repite las tarjetas para los otros productos -->
+            <!-- ... -->
+        </div>
+    </div>
+
+    <!-- Agrega los enlaces a Bootstrap JS y jQuery aquí -->
+    <footer>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto" >
+                    <li class="nav-item">
+                        <a class="btn btn-warning h-100 w-75" style="border-radius: 2rem; color:white" href="#">PANADERÍA</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-warning h-100 w-75" style="border-radius: 2rem; color:white" href="#">GALLETAS</a>
+                        
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-warning h-100 w-75" style="border-radius: 2rem; color:white" href="#">CAFETERÍA</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-warning h-100 w-75" style="border-radius: 2rem; color:white" href="#">ABASTECIMIENTO</a>
+                    </li>
+                </ul>
+            </div>
+        </nav> 
+    </footer> 
+</body>
+</html>
